@@ -17,7 +17,7 @@ Once inside the project directory, install the dependencies using npm i
 
 5)After signing in, navigate to the dashboard and create a new app to obtain an API key.
 
-6)Once you have your API key, open the 'App.jsx' file in the project directory and locate the 'URL' variable and place your API key.
+6)Once you have your API key, open the 'App.jsx' file in the project directory and locate the 'URL' variable and replace the existing key with your API key.
 
 7)You can start the development server to run the app locally. Use the following command:
 npm run dev
