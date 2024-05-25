@@ -18,13 +18,12 @@ const Heading = () => {
 
 const GifContainer = () => {
   const [dataFromUrl, setDataFromUrl] = useState([]);
+  const URL = "https://api.giphy.com/v1/gifs/trending?api_key=  &limit=20";
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(
-          "https://api.giphy.com/v1/gifs/trending?api_key="
-        );
+        const response = await fetch(URL);
         let data = await response.json();
         data = data.data.map((data) => {
           return data.images.original.url;
