@@ -1,8 +1,23 @@
-# React + Vite
+# Trending-gifs
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+App which displays trending gifs
 
-Currently, two official plugins are available:
+## To use this app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1)Install npm
+
+2)Clone the Project Repository:
+Clone the project repository to your local machine.
+
+3)Install Dependencies:
+Navigate into the cloned project directory using the terminal or command prompt:
+Once inside the project directory, install the dependencies using npm i
+
+4)Log into GIPHY's developer site (https://developers.giphy.com/) and sign up for an account.
+
+5)After signing in, navigate to the dashboard and create a new app to obtain an API key.
+
+6)Once you have your API key, open the 'App.jsx' file in the project directory and locate the 'URL' variable and place your API key.
+
+7)You can start the development server to run the app locally. Use the following command:
+npm run dev
